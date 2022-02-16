@@ -1,7 +1,7 @@
 let target = document.querySelector("#dynamic");
 
 function randomString() {
-    let strArr = ["Iphone14 Pro Max", "Iphone14 Pro", "Galaxy S22+", "Galaxy S22 Ultra"];
+    let strArr = ["iPhone14 Pro Max", "iPhone14 Pro", "Galaxy S22+", "Galaxy S22 Ultra"];
     let selectString = strArr[Math.floor(Math.random() * strArr.length)];
     let selectStrArr = selectString.split("");
 
